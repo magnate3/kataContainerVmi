@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -Wall -O2 -g -DNDEBUG  -rdynamic CMakeFiles/emugen.dir/ApiGen.cpp.o CMakeFiles/emugen.dir/EntryPoint.cpp.o CMakeFiles/emugen.dir/main.cpp.o CMakeFiles/emugen.dir/Parser.cpp.o CMakeFiles/emugen.dir/strUtils.cpp.o CMakeFiles/emugen.dir/TypeFactory.cpp.o  -o emugen 

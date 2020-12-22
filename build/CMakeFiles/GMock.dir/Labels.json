@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/openvmi/build/CMakeFiles/GMock"
+		},
+		{
+			"file" : "/openvmi/build/CMakeFiles/GMock.rule"
+		},
+		{
+			"file" : "/openvmi/build/CMakeFiles/GMock-complete.rule"
+		},
+		{
+			"file" : "/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-install.rule"
+		},
+		{
+			"file" : "/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-mkdir.rule"
+		},
+		{
+			"file" : "/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-download.rule"
+		},
+		{
+			"file" : "/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-update.rule"
+		},
+		{
+			"file" : "/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-patch.rule"
+		},
+		{
+			"file" : "/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-configure.rule"
+		},
+		{
+			"file" : "/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GMock"
+		],
+		"name" : "GMock"
+	}
+}

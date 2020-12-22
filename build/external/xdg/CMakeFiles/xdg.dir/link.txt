@@ -1,0 +1,2 @@
+/usr/bin/ar qc libxdg.a  CMakeFiles/xdg.dir/xdg.cpp.o
+/usr/bin/ranlib libxdg.a

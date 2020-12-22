@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../external/xdg/xdg.h
+boost/filesystem.hpp
+-
+string
+-
+vector
+-
+
+/openvmi/external/xdg/xdg_test.cpp
+xdg.h
+-
+boost/test/unit_test.hpp
+-
+cstdlib
+-
+iostream
+-
+

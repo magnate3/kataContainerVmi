@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGLESv2_dec.a  CMakeFiles/GLESv2_dec.dir/GLESv2Decoder.cpp.o CMakeFiles/GLESv2_dec.dir/gles2_dec.cpp.o CMakeFiles/GLESv2_dec.dir/gles2_server_context.cpp.o
+/usr/bin/ranlib libGLESv2_dec.a

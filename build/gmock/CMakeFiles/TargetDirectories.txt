@@ -1,0 +1,16 @@
+/openvmi/build/gmock/CMakeFiles/install/strip.dir
+/openvmi/build/gmock/CMakeFiles/install/local.dir
+/openvmi/build/gmock/CMakeFiles/gmock_main.dir
+/openvmi/build/gmock/CMakeFiles/list_install_components.dir
+/openvmi/build/gmock/CMakeFiles/gmock.dir
+/openvmi/build/gmock/CMakeFiles/rebuild_cache.dir
+/openvmi/build/gmock/CMakeFiles/edit_cache.dir
+/openvmi/build/gmock/CMakeFiles/install.dir
+/openvmi/build/gmock/gtest/CMakeFiles/install/strip.dir
+/openvmi/build/gmock/gtest/CMakeFiles/install/local.dir
+/openvmi/build/gmock/gtest/CMakeFiles/edit_cache.dir
+/openvmi/build/gmock/gtest/CMakeFiles/gtest_main.dir
+/openvmi/build/gmock/gtest/CMakeFiles/list_install_components.dir
+/openvmi/build/gmock/gtest/CMakeFiles/gtest.dir
+/openvmi/build/gmock/gtest/CMakeFiles/rebuild_cache.dir
+/openvmi/build/gmock/gtest/CMakeFiles/install.dir

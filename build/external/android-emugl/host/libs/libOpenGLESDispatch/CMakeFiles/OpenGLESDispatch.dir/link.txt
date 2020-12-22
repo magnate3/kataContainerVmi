@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOpenGLESDispatch.a  CMakeFiles/OpenGLESDispatch.dir/EGLDispatch.cpp.o CMakeFiles/OpenGLESDispatch.dir/GLESv2Dispatch.cpp.o CMakeFiles/OpenGLESDispatch.dir/GLESv1Dispatch.cpp.o
+/usr/bin/ranlib libOpenGLESDispatch.a

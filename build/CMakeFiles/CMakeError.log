@@ -1,0 +1,60 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /openvmi/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2eb3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2eb3c.dir/build.make CMakeFiles/cmTC_2eb3c.dir/build
+make[1]: Entering directory '/openvmi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2eb3c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -pedantic -Wno-variadic-macros -Wextra -fPIC -pedantic -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wredundant-decls -Wswitch-default    -o CMakeFiles/cmTC_2eb3c.dir/CheckSymbolExists.c.o   -c /openvmi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/openvmi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/openvmi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   return ((int*)(&pthread_create))[argc];
+           ^
+Linking C executable cmTC_2eb3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2eb3c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -pedantic -Wno-variadic-macros -Wextra -fPIC -pedantic -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wredundant-decls -Wswitch-default     -rdynamic CMakeFiles/cmTC_2eb3c.dir/CheckSymbolExists.c.o  -o cmTC_2eb3c 
+CMakeFiles/cmTC_2eb3c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2eb3c.dir/build.make:97: recipe for target 'cmTC_2eb3c' failed
+make[1]: *** [cmTC_2eb3c] Error 1
+make[1]: Leaving directory '/openvmi/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2eb3c/fast' failed
+make: *** [cmTC_2eb3c/fast] Error 2
+
+File /openvmi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /openvmi/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04f7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04f7b.dir/build.make CMakeFiles/cmTC_04f7b.dir/build
+make[1]: Entering directory '/openvmi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04f7b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -pedantic -Wno-variadic-macros -Wextra -fPIC -pedantic -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wredundant-decls -Wswitch-default -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_04f7b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_04f7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04f7b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -pedantic -Wno-variadic-macros -Wextra -fPIC -pedantic -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wredundant-decls -Wswitch-default -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_04f7b.dir/CheckFunctionExists.c.o  -o cmTC_04f7b -lpthreads 
+/usr/bin/aarch64-linux-gnu-ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_04f7b.dir/build.make:97: recipe for target 'cmTC_04f7b' failed
+make[1]: *** [cmTC_04f7b] Error 1
+make[1]: Leaving directory '/openvmi/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_04f7b/fast' failed
+make: *** [cmTC_04f7b/fast] Error 2
+
+

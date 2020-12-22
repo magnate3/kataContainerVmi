@@ -1,0 +1,13 @@
+# Target labels
+ GMock
+# Source files and their labels
+/openvmi/build/CMakeFiles/GMock
+/openvmi/build/CMakeFiles/GMock.rule
+/openvmi/build/CMakeFiles/GMock-complete.rule
+/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-install.rule
+/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-mkdir.rule
+/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-download.rule
+/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-update.rule
+/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-patch.rule
+/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-configure.rule
+/openvmi/build/GMock-prefix/src/GMock-stamp/GMock-build.rule

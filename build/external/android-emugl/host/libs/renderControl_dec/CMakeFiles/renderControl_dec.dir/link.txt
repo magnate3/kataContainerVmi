@@ -1,0 +1,2 @@
+/usr/bin/ar qc librenderControl_dec.a  CMakeFiles/renderControl_dec.dir/renderControl_dec.cpp.o CMakeFiles/renderControl_dec.dir/renderControl_server_context.cpp.o
+/usr/bin/ranlib librenderControl_dec.a

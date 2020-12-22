@@ -1,0 +1,2 @@
+/usr/bin/ar qc libopenvmi-protobuf.a  CMakeFiles/openvmi-protobuf.dir/openvmi_bridge.pb.cc.o CMakeFiles/openvmi-protobuf.dir/openvmi_rpc.pb.cc.o CMakeFiles/openvmi-protobuf.dir/openvmi/protobuf/google_protobuf_guard.cpp.o
+/usr/bin/ranlib libopenvmi-protobuf.a

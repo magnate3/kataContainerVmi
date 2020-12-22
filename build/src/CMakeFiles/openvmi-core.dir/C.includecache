@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/openvmi/src/openvmi/dbus/sd_bus_helpers.c
+sd_bus_helpers.h
+/openvmi/src/openvmi/dbus/sd_bus_helpers.h
+
+/openvmi/src/openvmi/dbus/sd_bus_helpers.h
+systemd/sd-bus-vtable.h
+-
+

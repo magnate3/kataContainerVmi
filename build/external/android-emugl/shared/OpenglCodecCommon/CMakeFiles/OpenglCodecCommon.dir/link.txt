@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOpenglCodecCommon.a  CMakeFiles/OpenglCodecCommon.dir/ChecksumCalculator.cpp.o CMakeFiles/OpenglCodecCommon.dir/ChecksumCalculatorThreadInfo.cpp.o CMakeFiles/OpenglCodecCommon.dir/glUtils.cpp.o
+/usr/bin/ranlib libOpenglCodecCommon.a
